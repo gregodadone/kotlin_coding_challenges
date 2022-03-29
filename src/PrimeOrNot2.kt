@@ -13,6 +13,6 @@ fun main(args: Array<String>) {
     for (i in 0 until n) {
         numbers[i] = sc.nextInt()
     }
-    val primes = numbers.filter { it -> isPrime(it) }
+    val primes = numbers.filter { isPrime(it) }
     println(primes.toString())
 }
