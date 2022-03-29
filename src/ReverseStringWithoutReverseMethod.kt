@@ -1,6 +1,6 @@
 import java.util.*
 
-//Write a Java program to reverse a string without using the reverse method of Java's String class
+//Write a Kotlin program to reverse a string without using the reverse method of Java's String class
 //Complexity O(n)
 fun main(args : Array<String>) {
     val scanner = Scanner(System.`in`)
