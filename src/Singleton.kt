@@ -4,7 +4,7 @@ class Singleton private constructor(public var str: String) {
         fun getInstance() = singleton
     }
 }
-
+// Good info: https://blog.mindorks.com/how-to-create-a-singleton-class-in-kotlin
 //class Singleton { // Another way of constructing
 //    public var str: String
 //    private constructor(str: String) {
